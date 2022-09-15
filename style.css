@@ -1,0 +1,20 @@
+body {
+    padding-top: 50%;
+    background: rgb(228,32,43);
+background: linear-gradient(90deg, rgba(228,32,43,1) 16%, rgba(220,37,53,1) 44%, rgba(255,0,116,1) 62%, rgba(218,68,142,1) 84%);
+}
+
+img{
+    height: 399px;
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9) ;
+    }
+
+    100% {
+        transform: scale(1.1) ;
+    }
+}
